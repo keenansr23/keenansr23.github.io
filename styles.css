@@ -295,12 +295,12 @@ img {
   margin: 5%;
 }
 
-.portfolio .slick-initialized .slick-slide {
+.projects .slick-initialized .slick-slide {
   display: flex;
   flex-direction: column;
 }
 
-.projects {
+.project {
   display: flex;
   justify-content: space-evenly;
 }
