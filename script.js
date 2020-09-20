@@ -4,7 +4,7 @@ if (document.documentElement.clientWidth < 425) {
   parent.removeChild(video);
   parent.style.background = "url('images/splash.jpg') no-repeat center ";
 	parent.style.backgroundSize = 'cover';
-  parent.style.marginBottom = '-40px';
+  parent.style.marginBottom = '-10px';
 }
 
 $(document).on("scroll", function () {
