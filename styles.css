@@ -199,14 +199,14 @@ ul {
   * Projects Section Styles
 */
 
-.portfolio {
+.projects {
   padding: 0 8%;
   background: #333333;
   margin: auto;
   color: white;
 }
 
-.profilelinks {
+.projectLinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -214,12 +214,12 @@ ul {
   padding-top: 10px;
 }
 
-.portfolio h1 {
+.projects h1 {
   text-align: center;
   padding-top: 25px;
 }
 
-.profilelinks .col {
+.projectLinks .col {
   flex: 22%;
   max-width: 30%;
   padding: 0 1%;
@@ -243,7 +243,7 @@ img {
   object-fit: cover;
 }
 
-.picContainer {
+.imgContainer {
   position: relative;
   margin-top: 5%;
   min-height: 340px;
@@ -251,21 +251,21 @@ img {
   align-items: center;
 }
 
-.picContainer img {
+.imgContainer img {
   -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
   transition-duration: 0.25s;
 }
 
-.picContainer:hover img {
+.imgContainer:hover img {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
   transition-duration: 0.25s;
 }
 
-.picOverlay {
+.imgOverlay {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.3s;
@@ -282,15 +282,15 @@ img {
   font-size: 2em;
 }
 
-.picOverlay ul {
+.imgOverlay ul {
   margin: 0 0 10px 0;
 }
 
-.picOverlay:hover {
+.imgOverlay:hover {
   opacity: 1;
 }
 
-.picOverlay h4 {
+.imgOverlay h4 {
   width: 90%;
   margin: 5%;
 }
@@ -319,7 +319,7 @@ img {
   * Connect Section Styles
 */
 
-.contact {
+.connect {
   margin: auto;
   text-align: center;
   width: 80%;
@@ -329,7 +329,7 @@ img {
   min-height: 100%;
 }
 
-.contact h1 {
+.connect h1 {
   font-size: 1.2em;
   margin-top: 0px;
 }
@@ -377,7 +377,7 @@ a strong:hover {
   color: #ff7116;
 }
 
-.contact ul {
+.connect ul {
   font-size: 30px;
 }
 
@@ -400,7 +400,7 @@ a strong:hover {
 */
 
 @media screen and (max-width: 1500px) {
-  .profilelinks .col {
+  .projectLinks .col {
     flex: 45%;
     max-width: 100%;
     padding: 0 1%;
@@ -423,7 +423,7 @@ a strong:hover {
     width: 30%;
   }
 
-  .contact p {
+  .connect p {
     padding: 0 50px;
   }
 }
@@ -445,7 +445,7 @@ a strong:hover {
     margin-right: auto;
   }
 
-  .profilelinks .col,
+  .projectLinks .col,
   .work-projects .col {
     flex: 90%;
     max-width: 100%;
@@ -484,7 +484,7 @@ a strong:hover {
     width: 50%;
   }
 
-  .VidOverlay {
+  .videoOverlay {
     display: none;
   }
 
@@ -513,15 +513,15 @@ a strong:hover {
     margin-bottom: 25px;
   }
 
-  .picOverlay:hover {
+  .imgOverlay:hover {
     opacity: 1;
   }
 
-  .contact h1 {
+  .connect h1 {
     margin-top: 25px;
   }
 
-  .contact p {
+  .connect p {
     max-width: 80%;
   }
 
