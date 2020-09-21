@@ -266,7 +266,7 @@ img {
 }
 
 .imgOverlay ul {
-  margin: 0 0 10px 0;
+  margin: 0 10px;
 }
 
 .imgOverlay:hover {
@@ -279,7 +279,7 @@ img {
 
 .project {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /*
@@ -449,7 +449,7 @@ a strong:hover {
   }
 
   .videoOverlay {
-    display: center;
+    display: none;
   }
 
   .about p,
