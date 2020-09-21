@@ -179,6 +179,7 @@ ul {
   max-width: 150px;
   max-height: 150px;
   margin-top: 25px;
+  margin-bottom: 50px;
   transition-duration: 0.25s;
 }
 
@@ -212,6 +213,7 @@ ul {
   justify-content: center;
   padding: 0 4px;
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .projects h1 {
@@ -220,8 +222,8 @@ ul {
 }
 
 .projectLinks .col {
-  flex: 22%;
-  max-width: 30%;
+  flex: 25%;
+  max-width: 60%;
   padding: 0 1%;
   padding-bottom: 5%;
 }
@@ -246,7 +248,7 @@ img {
 .imgContainer {
   position: relative;
   margin-top: 5%;
-  min-height: 340px;
+  min-height: 300px;
   display: flex;
   align-items: center;
 }
