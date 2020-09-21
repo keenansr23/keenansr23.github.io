@@ -25,6 +25,10 @@ ul {
   list-style-type: none;
 }
 
+/*
+  * Hide and Slide Affect Styles
+*/
+
 .hide {
   opacity: 0;
   transition: 1s;
@@ -38,6 +42,10 @@ ul {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+/*
+  * Project Container Buttons
+*/
 
 button {
   box-shadow: #ff7116 0 0px 0px 40px inset;
@@ -158,14 +166,6 @@ button:hover {
   text-align: center;
 }
 
-hr {
-  margin: 2% auto;
-  width: 60%;
-  color: black;
-  height: 1px;
-  background-color: black;
-}
-
 ul {
   padding-left: 0;
 }
@@ -184,8 +184,8 @@ ul {
 }
 
 .about li img:hover {
-  transform: scale(1.15);
-  transition-duration: 0.25s;
+  transform: scale(0.9);
+  transition-duration: 0.2s;
 }
 
 .about ul {
@@ -201,7 +201,7 @@ ul {
 */
 
 .projects {
-  padding: 0 8%;
+  padding: 0 5%;
   background: #333333;
   margin: auto;
   color: white;
@@ -211,8 +211,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 4px;
-  padding-top: 10px;
+  padding: 0 5px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -234,8 +234,8 @@ ul {
 }
 
 .work-projects .col {
-  flex: 45%;
-  max-width: 45%;
+  flex: 60%;
+  max-width: 60%;
   padding: 0 1%;
   padding-bottom: 5%;
 }
@@ -253,24 +253,10 @@ img {
   align-items: center;
 }
 
-.imgContainer img {
-  -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-  transition-duration: 0.25s;
-}
-
-.imgContainer:hover img {
-  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
-  transition-duration: 0.25s;
-}
-
 .imgOverlay {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -279,7 +265,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(70, 70, 67, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 2em;
 }
@@ -293,28 +279,12 @@ img {
 }
 
 .imgOverlay h4 {
-  width: 90%;
   margin: 5%;
-}
-
-.projects .slick-initialized .slick-slide {
-  display: flex;
-  flex-direction: column;
 }
 
 .project {
   display: flex;
   justify-content: space-evenly;
-}
-
-.slick-prev {
-  position: absolute;
-  left: -100px;
-}
-
-.slick-next {
-  position: fixed;
-  right: -100px;
 }
 
 /*
