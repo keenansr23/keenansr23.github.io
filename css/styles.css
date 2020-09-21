@@ -88,6 +88,7 @@ button:hover {
 .nav li {
   padding-top: 25px;
   padding-left: 25px;
+  padding-right: 25px;
   transition: all 0.25s;
 }
 
