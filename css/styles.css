@@ -517,9 +517,7 @@ a strong:hover {
     display: none;
   }
 
-  .imgOverlay:hover {
-    opacity: 1;
-  }
+
 
   .about p,
   .about li {
