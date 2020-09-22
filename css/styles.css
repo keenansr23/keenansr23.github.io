@@ -86,11 +86,6 @@ button:hover {
   font-size: 1.3em;
 }
 
-.nav a:hover {
-  color: #353535;
-  transition-duration: 0.4s;
-}
-
 .nav li {
   padding-top: 25px;
   padding-left: 25px;
