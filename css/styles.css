@@ -49,7 +49,7 @@ ul {
 */
 
 button {
-  box-shadow: #ff7116 0 0px 0px 40px inset;
+  box-shadow: rgb(255,179,71) 0 0px 0px 40px inset;
   border: none;
   background: transparent;
   margin-top: 5%;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  box-shadow: rgb(250, 190, 112) 0 0px 0px 40px inset;
+  box-shadow: rgb(255,211,148) 0 0px 0px 40px inset;
   color: black;
 }
 
@@ -391,7 +391,7 @@ a strong {
 }
 
 a strong:hover {
-  color: #ff7116;
+  color: #ffd394;
 }
 
 .connect ul {
