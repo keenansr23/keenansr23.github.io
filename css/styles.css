@@ -469,8 +469,7 @@ a strong:hover {
     margin-right: auto;
   }
 
-  .projectLinks .col,
-  .work-projects .col {
+  .projectLinks .col {
     flex: 90%;
     max-width: 100%;
     padding: 0 1%;
