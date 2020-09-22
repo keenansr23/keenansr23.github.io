@@ -1,4 +1,4 @@
-if (document.documentElement.clientWidth < 300) {
+if (document.documentElement.clientWidth < 425) {
 	let video = document.getElementById('video');
   let parent = document.getElementById('videoParent');
   parent.removeChild(video);
