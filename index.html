@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Keenan Srisaeng</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/favi_mobile.jpg">
-    <link rel="android" sizes="192x192" href="images/favi_mobile.jpg">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favi_mobile.jpg" />
+    <link rel="android" sizes="192x192" href="images/favi_mobile.jpg" />
+  </head>
 
-<body>
+  <body>
     <!-- Nav and Main Section -->
     <a id="home"></a>
 
-    <div class="Home section" id="videoParent">
+    <div class="hero" id="videoParent">
+      <!-- Video Overlay -->
+      <div class="videoOverlay"></div>
+      <video autoplay muted loop class="videoSection" id="video">
+        <source src="videos/abstract.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
 
-        <!-- Video Overlay -->
-        <div class="videoOverlay"></div>
-        <video autoplay muted loop class="videoSection" id="video">
-            <source src="videos/abstract.mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-        </video>
+      <!-- Nav Bar -->
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
 
-        <!-- Nav Bar -->
-        <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#connect">Connect</a></li>
-        </ul>
-
-        <!-- Main Heading -->
-        <div class="heading">
-            <p id="primary">Hi. I'm Keenan,</p>
-            <p id="secondary">
-                I'm a Software and Web Developer based in Las Vegas, NV.
-            </p>
-        </div>
-
+      <!-- Main Heading -->
+      <div class="heading">
+        <p id="primary">Hi. I'm Keenan,</p>
+        <p id="secondary">
+          I'm a Software and Web Developer based in Las Vegas, NV.
+        </p>
+      </div>
     </div>
 
     <!-- About Section -->
@@ -49,108 +49,128 @@
     <a id="about"></a>
 
     <div class="about centerContent">
+      <h1 class="hide slideUp">ABOUT</h1>
+      <p class="hide slideUp" id="tertiary">
+        I am a 23 year old self-taught developer and student from the University of Nevada, Las Vegas majoring in Computer Science.
+      </p>
+      <p class="hide slideUp" id="tertiary">
+        I currently work at Mission Support and Test Services (MSTS) for the
+        U.S. Department of Energy as a Jr. Software Developer – designing and
+        creating user interfaces for new tech that aids homeland security.
+      </p>
+      <p class="hide slideUp" id="tertiary">
+        I enjoy working with front-end development because I love using my
+        <b>creativity</b> when it comes to <b>problem-solving</b> and
+        <b>design</b>.
+      </p>
+    </div>
 
-        <br></br>
-
-        <h1 class="hide slideUp">ABOUT</h1>
-        <p class="hide slideUp" id="tertiary">
-            I am a 23 year old self-taught developer and student from the College of
-            Southern Nevada majoring in Software and Web Development.
-        </p>
-
-        <p class="hide slideUp" id="tertiary">
-            I currently work at Mission Support and Test Services (MSTS) for the
-            U.S. Department of Energy as a Jr. Software Developer –
-            designing and creating user interfaces for new tech that aids homeland
-            security.
-        </p>
-
-        <p class="hide slideUp" id="tertiary">
-            I enjoy working with front-end development because I love using my <b>creativity</b> when it comes to
-            <b>problem-solving</b> and <b>design</b>.
-        </p>
-
-        <br></br>
-
-        <h1 class="hide slideUp">SKILLS</h1>
-        <ul class="hide slideUp">
-            <li><img src="images/html.png" alt="HTML" title="HTML" /></li>
-            <li><img src="images/css.png" alt="CSS" title="CSS" /></li>
-            <li><img src="images/js.png" alt="JavaScript" title="JavaScript" /></li>
-            <li><img src="images/cs.png" alt="C Sharp" title="C Sharp" /></li>
-            <li><img src="images/xaml.png" alt="XAML" title="XAML" /></li>
-            <li><img src="images/ps.png" alt="Adobe Photoshop" title="Adobe Photoshop" /></li>
-            <li><img src="images/vsc.png" alt="Visual Studio Code" title="Visual Studio Code" /></li>
-        </ul>
+    <div class="skills centerContent">
+      <h1 class="hide slideUp">SKILLS</h1>
+      <ul class="hide slideUp">
+        <li><img src="images/html.png" alt="HTML" title="HTML" /></li>
+        <li><img src="images/css.png" alt="CSS" title="CSS" /></li>
+        <li><img src="images/js.png" alt="JavaScript" title="JavaScript" /></li>
+        <li><img src="images/cs.png" alt="C Sharp" title="C Sharp" /></li>
+        <li><img src="images/xaml.png" alt="XAML" title="XAML" /></li>
+        <li>
+          <img
+            src="images/vsc.png"
+            alt="Visual Studio Code"
+            title="Visual Studio Code"
+          />
+        </li>
+      </ul>
     </div>
 
     <!-- Projects Section -->
 
     <a id="projects"></a>
     <div class="projects centerContent">
-        <h1 class="hide slideUp">PROJECTS</h1>
-        <div class="hide slideUp">
-            <div class="projectLinks">
-                <div class="project">
-                    <!-- Column 1 -->
-                    <div class="col">
-                        <!-- Portfolio-v1 Responsive Project -->
-                        <div class="imgContainer">
-                            <img src="projects-images/portfolio-v1.png" alt="Portfolio V1 Project" />
-                            <div class="imgOverlay">
-                                <h4>Portfolio V1 Project</h4>
-                            
-                                <p id="primary">HTML5</p>
-                                <p id="primary">CSS3</p>
-                                
-                                <a href="projects-pages/portfolio-v1/portfolio-v1.html" target="_blank">
-                                    <button>Site</button>
-                                </a>
-                                <a href="https://github.com/keenansr23/Portfolio-v1" target="_blank">
-                                    <button>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+      <h1 class="hide slideUp">PROJECTS</h1>
+
+      <div class="hide slideUp">
+        <div class="projectLinks">
+          <div class="project">
+            <!-- Column 1 -->
+            <div class="col">
+              <!-- Portfolio-v1 Responsive Project -->
+              <div class="imgContainer">
+                <img
+                  src="projects-images/portfolio-v1.png"
+                  alt="Portfolio V1 Project"
+                />
+                <div class="imgOverlay">
+                  <h4>Portfolio V1 Project</h4>
+
+                  <p id="primary">HTML5</p>
+                  <p id="primary">CSS3</p>
+
+                  <a
+                    href="projects-pages/portfolio-v1/portfolio-v1.html"
+                    target="_blank"
+                  >
+                    <button>Site</button>
+                  </a>
+                  <a
+                    href="https://github.com/keenansr23/Portfolio-v1"
+                    target="_blank"
+                  >
+                    <button>Code</button>
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Connect Section -->
 
     <a id="connect"></a>
     <div class="connect centerContent">
-        <h1>CONNECT</h1>
-        <p class="hide slideUp" id="info">
-            If you have any questions or would like to chat, please reach out!
-        </p>
-        <ul class="hide slideUp">
-            <li id="info">
-                Phone:
-                <a href="tel:1-702-300-5791"><strong>(702) 300-5791</strong></a>
-            </li>
-            <li id="info">
-                Email:
-                <a href="mailto:keenan.srisaeng@gmail.com"><strong>keenan.srisaeng@gmail.com</strong></a>
-            </li>
-        </ul>
-        <div class="socials hide slideUp">
-            <a href="https://www.linkedin.com/in/keenan-srisaeng-060a44129" class="fa fa-linkedin hide"
-                target="_blank"></a>
-            <a href="https://github.com/keenansr23" class="fa fa-github hide" target="_blank"></a>
-        </div>
+      <h1 class="hide slideUp">CONNECT</h1>
+      <p class="hide slideUp" id="info">
+        If you have any questions or would like to chat, please reach out!
+      </p>
+      <ul class="hide slideUp">
+        <li id="info">
+          Phone:
+          <a href="tel:1-702-300-5791"><strong>(702) 300-5791</strong></a>
+        </li>
+        <li id="info">
+          Email:
+          <a href="mailto:keenan.srisaeng@gmail.com"
+            ><strong>keenan.srisaeng@gmail.com</strong></a
+          >
+        </li>
+      </ul>
+      <div class="socials hide slideUp">
+        <a
+          href="https://www.linkedin.com/in/keenan-srisaeng-060a44129"
+          class="fa fa-linkedin hide"
+          target="_blank"
+        ></a>
+        <a
+          href="https://github.com/keenansr23"
+          class="fa fa-github hide"
+          target="_blank"
+        ></a>
+      </div>
     </div>
 
     <!-- Footer Section -->
 
     <div class="footer">
-        <p>Developed by Keenan Srisaeng</p>
+      <p>Developed by Keenan Srisaeng</p>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>

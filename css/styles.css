@@ -6,8 +6,9 @@ body {
   padding: 0px;
 }
 
-.section {
-  min-height: 100vh;
+.hero {
+  text-align: center;
+  color: white;
 }
 
 .centerContent {
@@ -26,7 +27,7 @@ ul {
 }
 
 /*
-  * Hide and Slide Affect Styles
+  * Hide and Slide Effect Styles
 */
 
 .hide {
@@ -85,16 +86,16 @@ button:hover {
   font-size: 1.3em;
 }
 
+.nav a:hover {
+  color: #353535;
+  transition-duration: 0.4s;
+}
+
 .nav li {
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
   transition: all 0.25s;
-}
-
-.Home {
-  text-align: center;
-  color: white;
 }
 
 .heading {
@@ -141,10 +142,6 @@ button:hover {
   opacity: 0.25;
 }
 
-.Home.section {
-  position: relative;
-}
-
 /*
   * About Section Styles
 */
@@ -152,6 +149,9 @@ button:hover {
 .about {
   margin-top: -10px;
   background: #f9f9f9;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .about p,
@@ -193,29 +193,77 @@ ul {
   margin: 50px auto;
 }
 
+/********/
+
+.skills {
+  margin-top: -10px;
+  background: #3f3f3f;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skills p,
+.skills li {
+  font-size: 2em;
+  width: 65%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  margin-top: 5px;
+  width: 30%;
+}
+
+.skills li img {
+  max-width: 125px;
+  max-height: 125px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  transition-duration: 0.2s;
+}
+
+.skills li img:hover {
+  transform: scale(1.5);
+  transition-duration: 0.2s;
+}
+
+.skills ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
 /*
   * Projects Section Styles
 */
 
 .projects {
   padding: 0 5%;
-  background: #333333;
+  background: #f9f9f9;
+  color: black;
   margin: auto;
-  color: white;
 }
 
 .projectLinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 5px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .projects h1 {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 
 .projectLinks .col {
@@ -293,7 +341,8 @@ img {
   text-align: center;
   width: 80%;
   font-size: 2em;
-  background: #f9f9f9;
+  background: #3f3f3f;
+  color: white;
   min-width: 100%;
   min-height: 100%;
 }
@@ -304,13 +353,13 @@ img {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 20px;
-  height: 20px;
-  width: 20px;
+  padding: 25px;
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: all 0.25s;
 }
 
@@ -324,7 +373,7 @@ img {
 }
 
 .fa-github {
-  background: #333333;
+  background: #24292e;
   color: white;
 }
 
@@ -338,7 +387,7 @@ img {
 }
 
 a strong {
-  color: black;
+  color: white;
 }
 
 a strong:hover {
@@ -354,7 +403,7 @@ a strong:hover {
 */
 
 .footer {
-  background-color: #333333;
+  background-color: black;
   color: white;
   padding: 10px;
   justify-content: space-around;
@@ -362,12 +411,12 @@ a strong:hover {
 }
 
 /*
-  * Media Queries
+  * Media & Responsive Queries
 */
 
 @media screen and (max-width: 1500px) {
   .projectLinks .col {
-    flex: 45%;
+    flex: 40%;
     max-width: 100%;
     padding: 0 1%;
   }
@@ -385,6 +434,15 @@ a strong:hover {
   }
 
   .about li {
+    margin-top: 5px;
+    width: 30%;
+  }
+
+  .skills ul {
+    width: 85%;
+  }
+
+  .skills li {
     margin-top: 5px;
     width: 30%;
   }
@@ -423,6 +481,11 @@ a strong:hover {
     width: 45%;
   }
 
+  .skills li {
+    margin-top: 5px;
+    width: 45%;
+  }
+
   .nav li {
     font-size: 12px;
   }
@@ -445,13 +508,18 @@ a strong:hover {
   }
 
   .nav li {
-    padding-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 25px;
     width: 40%;
   }
 
   .videoOverlay {
     display: none;
+  }
+
+  .imgOverlay:hover {
+    opacity: 1;
   }
 
   .about p,
@@ -479,8 +547,26 @@ a strong:hover {
     margin-bottom: 25px;
   }
 
-  .imgOverlay:hover {
-    opacity: 1;
+  .skills li {
+    width: 90%;
+    margin: 1% auto;
+    text-align: center;
+  }
+
+  .skills li {
+    margin-top: 5px;
+    width: 45%;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+
+  .skills ul {
+    margin-bottom: 25px;
   }
 
   .connect h1 {
